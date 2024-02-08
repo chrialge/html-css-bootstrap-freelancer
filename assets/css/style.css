@@ -47,6 +47,11 @@
     & .debug-color{
         height: 400px;
         background-color: red;
+        & .card{
+            background-color: yellow;
+            width: 100%;
+            height: 100%;
+        }
     }
 }
 
