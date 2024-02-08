@@ -34,6 +34,8 @@
     height: 500px;
     & div{
         background-color: purple;
+        height: 400px;
+
     }
 }
 /* enddiv jumbotrom */
@@ -41,11 +43,13 @@
 /* section portofolio */
 #portofolio{
     padding: 50px 0;
+
+    & .debug-color{
+        height: 400px;
+        background-color: red;
+    }
 }
-.debug .col-12{
-    height: 400px;
-    background-color: red;
-}
+
 /* endsection portofolio */
 
 /* section about */
