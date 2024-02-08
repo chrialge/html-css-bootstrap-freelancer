@@ -10,4 +10,16 @@
     margin: 0;
     box-sizing: border-box;
 }
+.debug{
+    border: 1px dashed;
+}
 /* endregion common */
+
+/* region header */
+
+#site_header{
+    height: 70px;
+    background-color: var(--bootstrap-primary);
+}
+
+/* region header */
