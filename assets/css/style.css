@@ -22,4 +22,20 @@
     background-color: var(--bootstrap-primary);
 }
 
+
 /* region header */
+
+/* region main */
+
+#jumbotron{
+    background-color: var(--bootstrap-secondary);
+    height: 500px;
+}
+.debug .col-12{
+    height: 400px;
+    background-color: red;
+}
+#about{
+    background-color: #1abc9c;
+}
+/* endregion main */
