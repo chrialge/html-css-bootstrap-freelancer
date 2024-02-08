@@ -20,6 +20,7 @@
 #site_header{
     height: 70px;
     background-color: var(--bootstrap-primary);
+
 }
 
 
@@ -27,15 +28,58 @@
 
 /* region main */
 
+/* div jumbotrom */
 #jumbotron{
     background-color: var(--bootstrap-secondary);
     height: 500px;
+    & div{
+        background-color: purple;
+    }
+}
+/* enddiv jumbotrom */
+
+/* section portofolio */
+#portofolio{
+    padding: 50px 0;
 }
 .debug .col-12{
     height: 400px;
     background-color: red;
 }
+/* endsection portofolio */
+
+/* section about */
 #about{
+    padding: 20px 0;
     background-color: #1abc9c;
 }
+/* endsection portofolio */
+
+/* section contact me */
+#contact_me{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    & .square_contact_me{
+        height: 300px;
+        background-color: green;
+    }
+}
+/* endsection contact me */
+
 /* endregion main */
+
+/* region footer */
+
+.top-footer{
+    background-color: var(--bootstrap-primary-light);
+    padding: 40px 30px;
+     
+    & p{
+        margin: 0;
+    }
+}
+.bottom-footer{
+    padding: 30px 0;
+    background-color: var(--bootstrap-primary);
+}
+/* endregion footer */
