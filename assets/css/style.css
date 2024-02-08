@@ -1,0 +1,13 @@
+/* region common */
+:root{
+    --bootstrap-primary: #2c3e50;
+    --bootstrap-secondary: #1abc9c;
+    --bootstrap-primary-light: #3a546d;
+    --bootstrap-lighter: #ffffff;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* endregion common */
