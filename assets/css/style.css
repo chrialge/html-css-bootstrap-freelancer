@@ -80,10 +80,6 @@ h2{
     & .separated > hr{
         background-color: var(--bootstrap-primary);
     }
-    & .radius{
-        
-    }
-
 }
 
 
