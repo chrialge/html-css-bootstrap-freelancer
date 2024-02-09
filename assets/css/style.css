@@ -95,6 +95,10 @@ h2{
 #about{
     padding: 20px 0;
     background-color: #1abc9c;
+    
+    & .container > .separated > hr{
+        background-color: var(--bootstrap-lighter);
+    }
 }
 /* endsection portofolio */
 
