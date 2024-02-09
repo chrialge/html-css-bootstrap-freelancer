@@ -12,7 +12,27 @@
 }
 /* endregion common */
 
-/* region  */
+/* region utilies*/
+
+h2{
+    font-size: 45px;
+}
+.color-text-primary{
+    color: var(--bootstrap-primary);
+}
+.separated {
+    font-size: 30px;
+
+    & > hr{
+        width: 130px;
+        height: 4px;
+        opacity: 1;
+    }
+}
+
+
+/* region utilies*/
+
 
 /* region header */
 
@@ -30,7 +50,6 @@
 /* div jumbotrom */
 #jumbotron{
     background-color: var(--bootstrap-secondary);
- 
     padding: 30px;
     color: var(--bootstrap-lighter);
 
@@ -38,31 +57,27 @@
             width: 300px;
         }
 
-        & .container > h1{
+        & .container-md > h1{
             font-size: 60px;
         }
 
-        & .separated {
-            font-size: 35px;
-
-            & > hr{
-                width: 130px;
-                height: 4px;
+        & .separated > hr{
                 background-color: white;
-                opacity: 1;
             }
-        }
-
 }
+
+
 /* enddiv jumbotrom */
 
 /* section portofolio */
 #portofolio{
     padding: 50px 0;
 
+    & .separated > hr{
+        background-color: var(--bootstrap-primary);
+    }
+
     & .debug-color{
-        height: 400px;
-        background-color: red;
         & .card{
             background-color: yellow;
             width: 100%;
@@ -108,3 +123,14 @@
     background-color: var(--bootstrap-primary);
 }
 /* endregion footer */
+
+/* region media */
+
+@media screen and (max-width: 720px){
+    
+    .jumbotron > .container-md > h1{
+        font-size: 0px;
+    }
+}
+
+/* endregion media */
