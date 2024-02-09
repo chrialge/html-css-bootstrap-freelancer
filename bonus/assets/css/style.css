@@ -44,6 +44,7 @@ h2{
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 2;
     & .container-fluid{
         background-color: var(--bootstrap-primary);
     }
@@ -92,6 +93,25 @@ h2{
     & .separated > hr{
         background-color: var(--bootstrap-primary);
     }
+    & .card{
+        cursor: pointer;
+
+        & .overlay{
+            background-color: var(--bootstrap-secondary);
+            opacity: 0.7;
+            visibility: hidden;
+    
+            & i{
+                font-size: 35px;
+            }
+        }
+
+    }
+
+    & .card:hover .overlay{
+        visibility: visible;
+    }
+
 }
 
 /* endsection portofolio */
