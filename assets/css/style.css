@@ -40,6 +40,13 @@ h2{
 #site_header{
     height: 80px;
     background-color: var(--bootstrap-primary);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    & .container-fluid{
+        background-color: var(--bootstrap-primary);
+    }
 
 }
 
@@ -47,6 +54,10 @@ h2{
 /* region header */
 
 /* region main */
+
+#site_main{
+    padding-top: 80px;
+}
 
 /* div jumbotrom */
 #jumbotron{
