@@ -30,12 +30,29 @@
 /* div jumbotrom */
 #jumbotron{
     background-color: var(--bootstrap-secondary);
-    height: 500px;
+ 
     padding: 30px;
-    & div{
-        background-color: purple;
-        height: 400px;
-    }
+    color: var(--bootstrap-lighter);
+
+        & .container_image{
+            width: 300px;
+        }
+
+        & .container > h1{
+            font-size: 60px;
+        }
+
+        & .separated {
+            font-size: 35px;
+
+            & > hr{
+                width: 130px;
+                height: 4px;
+                background-color: white;
+                opacity: 1;
+            }
+        }
+
 }
 /* enddiv jumbotrom */
 
