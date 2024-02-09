@@ -64,6 +64,9 @@ h2{
         & .separated > hr{
                 background-color: white;
             }
+        & span{
+            font-size: 28px;
+        }
 }
 
 
@@ -128,8 +131,15 @@ h2{
 
 @media screen and (max-width: 720px){
     
-    .jumbotron > .container-md > h1{
-        font-size: 0px;
+    #jumbotron > .container-md{
+
+        & h1{
+            font-size: 45px;
+        }
+        & span{
+            font-size: 18px;
+        }
+
     }
 }
 
