@@ -16,7 +16,7 @@
           <nav class="navbar navbar-expand-md navbar-light">
             <div class="container-fluid fw-bold">
               <a class="navbar-brand text-white" href="#">START BOOTSTRAP</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <button class="navbar-toggler border-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -48,7 +48,7 @@
             <img src="./assets/img/avatar.svg" alt="">
           </div>
           <h1>START BOOTSTRAP</h1>
-          <div class="separated d-flex text-white gap-4">
+          <div class="separated d-flex text-white gap-3">
             <hr>
             <i class="fa-solid fa-star"></i>
             <hr>
@@ -62,29 +62,29 @@
       <section id="portofolio">
         <div class="container text-center">
           <h2>PORTFOLIO</h2>
-          <div class="separated color-text-primary d-flex gap-4 justify-content-center py-3">
+          <div class="separated color-text-primary d-flex gap-3 justify-content-center py-3">
             <hr>
             <i class="fa-solid fa-star"></i>
             <hr>
           </div>
           <div class="row gy-3">
-            <div class="debug-color col-12 col-sm-6 col-lg-4">
-              <img class="w-100" src="./assets/img/cabin.png" alt="">
+            <div class="col-12 col-sm-6 col-lg-4">
+              <img class="w-100 rounded-2" src="./assets/img/cabin.png" alt="">
             </div>
-            <div class="debug-color col-12 col-sm-6 col-lg-4">
-              <img class="w-100" src="./assets/img/cake.png" alt="">
+            <div class="col-12 col-sm-6 col-lg-4">
+              <img class="w-100 rounded-2" src="./assets/img/cake.png" alt="">
             </div>
-            <div class="debug-color col-12 col-sm-6 col-lg-4">
-              <img class="w-100" src="./assets/img/circus.png" alt="">
+            <div class="col-12 col-sm-6 col-lg-4">
+              <img class="w-100 rounded-2" src="./assets/img/circus.png" alt="">
             </div>
-            <div class="debug-color col-12 col-sm-6 col-lg-4">
-              <img class="w-100" src="./assets/img/game.png" alt="">
+            <div class="col-12 col-sm-6 col-lg-4">
+              <img class="w-100 rounded-2" src="./assets/img/game.png" alt="">
             </div>
-            <div class="debug-color col-12 col-sm-6 col-lg-4">
-              <img class="w-100" src="./assets/img/safe.png" alt="">
+            <div class="col-12 col-sm-6 col-lg-4">
+              <img class="w-100 rounded-2" src="./assets/img/safe.png" alt="">
             </div>
-            <div class="debug-color col-12 col-sm-6 col-lg-4">
-              <img class="w-100" src="./assets/img/submarine.png" alt="">
+            <div class="col-12 col-sm-6 col-lg-4">
+              <img class="w-100 rounded-2" src="./assets/img/submarine.png" alt="">
             </div>
           </div>
         </div>
@@ -93,14 +93,14 @@
 
       <!-- section about -->
       <section id="about">
-        <div class="container text-center px-5 text-white">
+        <div class="container text-center px-5 py-4 text-white">
           <h2>ABOUT</h2>
-          <div class="separated d-flex text-white gap-4 justify-content-center">
+          <div class="separated d-flex text-white gap-3 justify-content-center py-3">
             <hr>
             <i class="fa-solid fa-star"></i>
             <hr>
           </div>
-          <div class="row mx-5">
+          <div class="row mx-5 pb-5">
             <div class="col-12 col-sm-6">
                 <p class="text-start">
                   Freelancer is a free boot strap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization
@@ -112,6 +112,7 @@
               </p>
             </div>
           </div>
+          <a class="text-decoration-none text-white px-3 py-2" href="#"><i class="fa-solid fa-download"></i> Download</a>
         </div>
         
       </section>
@@ -119,10 +120,32 @@
 
       <!-- section contact me -->
       <section id="contact_me">
-        <div class="container text-center">
-          <h2>CONTACT ME</h2>
-          <div class="square_contact_me m-auto w-75">
-
+        <div class="container w-75">
+          <h2 class="text-center">CONTACT ME</h2>
+          <div class="separated d-flex gap-3 justify-content-center py-3">
+            <hr>
+            <i class="fa-solid fa-star"></i>
+            <hr>
+          </div>
+          <div class="square_contact_me mx-4">
+            <div class="form-floating">
+              <input type="text" class="form-control rounded-0 border-0 border-bottom" id="floatingInput" placeholder="Name">
+              <label for="floatingInput">Name</label>
+            </div>
+            <div class="form-floating">
+              <input type="email" class="form-control rounded-0 border-0 border-bottom" id="floatingPassword" placeholder="name@example.com">
+              <label for="floatingPassword">Email Address</label>
+            </div>
+            <div class="form-floating">
+              <input type="text" class="form-control rounded-0 border-0 border-bottom" id="floatingInput" placeholder="Phone Number">
+              <label for="floatingInput">Phone Number</label>
+            </div>
+            <div class="form-floating">
+              <textarea rows="7" cols="30" class="form-control rounded-0 border-0 border-bottom h-100" id="floatingPassword" placeholder="Message">
+              </textarea>
+              <label class="" for="floatingPassword">Message</label>
+            </div>
+            <button type="submit" class="btn text-white fw-bold my-3">Send</button>
           </div>
         </div>
       </section>
@@ -137,10 +160,32 @@
       <!-- top footer -->
       <div class="top-footer text-center">
         <div class="container">
-          <div class="row">
-            <div class="col-12 col-sm-4">lorem</div>
-            <div class="col-12 col-sm-4">lorem</div>
-            <div class="col-12 col-sm-4">lorem</div>
+          <div class="row text-white gy-5 fw-bold">
+            <div class="col-12 col-sm-4">
+              <span>LOCATION</span>
+              <span>2215 John Daniel Drive Clark, MO 54243</span>
+            </div>
+            <div class="col-12 col-sm-4">
+              <span>AROUND THE WEB</span>
+              <div class="widget d-flex justify-content-center gap-2 mt-2">
+                <div class="icon d-flex align-items-center justify-content-center">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </div>
+                <div class="icon d-flex align-items-center justify-content-center">
+                  <i class="fa-brands fa-google-plus-g"></i>
+                </div>
+                <div class="icon d-flex align-items-center justify-content-center">
+                  <i class="fa-brands fa-twitter"></i>
+                </div>
+                <div class="icon d-flex align-items-center justify-content-center">
+                  <i class="fa-brands fa-linkedin"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-4">
+              <span>ABOUT FREELANCER</span>
+              <span>Freelance is a free to use, open source Bootstrap theme created by <a href="#">Start Bootstrap</a></span>
+            </div>
           </div>
         </div>
       </div>
