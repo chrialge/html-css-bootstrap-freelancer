@@ -181,6 +181,10 @@ h2{
     .separated >hr{
         width: 120px;
     }
+
+    h2{
+        font-size: 40px;
+    }
 }
 
 /* endregion media */
