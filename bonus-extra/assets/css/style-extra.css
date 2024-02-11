@@ -1,6 +1,13 @@
+
 .left_jumbotron > img{
     max-width: 360px;
 }
 .right_jumbotron > *{
     padding: 10px 0;
+}
+.icon_small{
+    width: 50px;
+}
+.left-policy > *{
+    padding-right: 0 10px;
 }
