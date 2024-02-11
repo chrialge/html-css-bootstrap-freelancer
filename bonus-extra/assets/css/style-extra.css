@@ -1,0 +1,6 @@
+.left_jumbotron > img{
+    max-width: 360px;
+}
+.right_jumbotron > *{
+    padding: 10px 0;
+}
